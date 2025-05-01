@@ -1,0 +1,38 @@
+First,You must understand your "flavor",For Example:
+
+=====Cert Licence Begin=====
+Name:My first cert
+Date:20250501
+Issuer:CodeBlue-Develop
+Description:My first cert
+PID:0123456789.......23232ABDc303203DJIFi#rie(Many Word)
+=====Cert Licence End=====
+
+But is it too easy for a hacker to crack it (if the certificate expires, just change the date)
+so,PPPPPPPPPPPPPP      IIIIIIIIII       DDDDDDDDD
+   P            P           I           D        D
+   P            P           I           D         D
+   PPPPPPPPPPPPPP           I           D         D
+   P                        I           D        D
+   P                   IIIIIIIIII       DDDDDDDDD
+comes in handy!
+Therefore, it is necessary to identify whether the certificate name, certificate issuance date, and certificate issuer/organization correspond to the PID.
+Of course, that's not enough. If so, does that mean that as long as the name is the same and the date is the same, can the same promulgator apply the same PID?
+That's why we need one, the identification code!
+The identification code can be customised to your own "taste".
+For Example:
+ckcks-q3fs3-sddfs-serde-332ds
+Then,the cert becomes:
+
+=====Cert Licence Begin=====
+Name:My first cert
+Date:20250501
+Issuer:CodeBlue-Develop
+Description:My first cert
+PID:0123456789.......23232ABDc303203DJIFi#rie
+Sign:ckcks-q3fs3-sddfs-serde-332ds
+=====Cert Licence End=====
+All right!
+Then, you can do the Pid and Sign verification procedures well based on your own ”taste“.
+
+Epilogue:用英文写教程文件，真是太！难！了！
